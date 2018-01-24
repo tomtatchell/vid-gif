@@ -1,51 +1,11 @@
 import os
 import subprocess
 
-"""
-Generate Palette
 
--y: Overwirte without asking
--ss: start second
--t: time (length)
--i: input file
--vf: video filter
-fps: frames per second
-scale: width
-
-
-ffmpeg -y -ss 30 -t 3 -i input.flv -vf fps=10,scale=320:-1:flags=lanczos,palettegen .palette.png
-
-"""
-
-"""
-Generate Gif
-
--ss: start second
--t: time (length)
--i: input file (2nd -i: palette)
-fps: frames per second
-scale: width
-
-ffmpeg -ss 30 -t 3 -i input.flv -i palette.png -filter_complex "fps=10,scale=320:-1:flags=lanczos[x];[x][1:v]paletteuse" output.gif
-"""
-
-"""
-Housekeeping
-
-rm .palette.png
-"""
-
-# TODO: get input file + path
-
-# TODO: run terminal command to generate gif using palette and input file
-# TODO: cleanup by removing palette file
 # TODO: add user controls
 # TODO: package into droplet app
 
 inputFile = "/Users/bbmp03/Desktop/temp/vg-py/logo-anim.mov"
-
-if os.path.isfile(inputFile):
-    print(os.path.dirname(inputFile))
 
 
 def get_mov_info(mov):
@@ -81,20 +41,55 @@ def palette_gen(mov, width, fps):
     :param mov: source movie file
     :param width: source movie width
     :param fps: source movie fps
-    :return: None
+    :return:
     """
 
     if os.path.isfile(mov):
         cmd = ['ffmpeg', '-y', '-i', mov, '-vf',
                'fps={fps},scale={scale}:-1:flags=lanczos,palettegen'.format(fps=fps, scale=width),
                '{}/.palette.png'.format(os.path.dirname(mov))]
-        result = subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
-        return result
+        subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+
+
+def gif_conversion(mov, width, fps):
+    """
+    Uses the previously created palette to generate a gif from the source movie file
+    :param mov: source movie file
+    :param width: source movie width
+    :param fps: source movie fps
+    :return:
+    """
+    if os.path.isfile(mov):
+        cmd = ['ffmpeg', '-i', mov, '-i', '{}/.palette.png'.format(os.path.dirname(mov)),
+               '-filter_complex',
+               'fps={fps},scale={scale}:-1:flags=lanczos[x];[x][1:v]paletteuse'.format(
+                   fps=fps, scale=width),
+               '{}.gif'.format(os.path.splitext(mov)[0])]
+        subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+
+
+def housekeeping(mov):
+    """
+    Removes the palette file used for creating the gif
+    :param mov: source movie file
+    :return:
+    """
+    if os.path.isdir(os.path.dirname(mov)):
+        dir = os.path.dirname(mov)
+        palette_file = '.palette.png'
+        if os.path.isfile(os.path.join(dir, palette_file)):
+            os.remove(os.path.join(dir, palette_file))
 
 
 def main():
+    # get file info
     width, height, fps = get_mov_info(inputFile)
+    # generate palette
     palette_gen(inputFile, width, fps)
+    # generate gif
+    gif_conversion(inputFile, width, fps)
+    # remove palette
+    housekeeping(inputFile)
 
 
 if __name__ == "__main__":
