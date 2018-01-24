@@ -36,9 +36,53 @@ rm .palette.png
 """
 
 # TODO: get input file + path
+
+
 # TODO: run terminal command to generate palette based on input file
 # TODO: run terminal command to generate gif using palette and input file
 # TODO: cleanup by removing palette file
 # TODO: add user controls
 # TODO: package into droplet app
 
+inputFile = "/Users/bbmp03/Desktop/temp/vg-py/logo-anim.mov"
+
+
+def get_mov_info(mov):
+    """
+    Get the width, height and fps of source movie file
+    :param mov: source movie file
+    :return: list: file_info: width, height, fps
+    """
+    file_info = []
+    if os.path.isfile(mov):
+        # TODO: get info from video file
+        # TODO: get output of shell command
+        cmd = ['ffprobe', '-show_streams', mov]
+        result = subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8').split('\n')
+        for x in result:
+            if x.startswith("width"):
+                width = x.split('=')[1]
+                file_info.append("width: {}".format(width))
+            if x.startswith("height"):
+                height = x.split('=')[1]
+                file_info.append("height: {}".format(height))
+            if x.startswith("avg_frame_rate"):
+                fps_raw = x.split('=')[1]
+                fps = fps_raw.split('/')[0]
+                file_info.append("fps: {}".format(fps))
+
+    return file_info
+
+
+
+
+def palette_gen(mov):
+    pass
+
+
+def main():
+    get_mov_info(inputFile)
+
+
+if __name__ == "__main__":
+    main()
