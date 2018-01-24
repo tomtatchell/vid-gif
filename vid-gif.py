@@ -1,3 +1,4 @@
+import sys
 import os
 import subprocess
 
@@ -5,7 +6,7 @@ import subprocess
 # TODO: add user controls
 # TODO: package into droplet app
 
-inputFile = "/Users/bbmp03/Desktop/temp/vg-py/logo-anim.mov"
+inputFile = sys.argv[1]
 
 
 def get_mov_info(mov):
