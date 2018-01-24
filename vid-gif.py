@@ -37,14 +37,15 @@ rm .palette.png
 
 # TODO: get input file + path
 
-
-# TODO: run terminal command to generate palette based on input file
 # TODO: run terminal command to generate gif using palette and input file
 # TODO: cleanup by removing palette file
 # TODO: add user controls
 # TODO: package into droplet app
 
 inputFile = "/Users/bbmp03/Desktop/temp/vg-py/logo-anim.mov"
+
+if os.path.isfile(inputFile):
+    print(os.path.dirname(inputFile))
 
 
 def get_mov_info(mov):
@@ -62,26 +63,38 @@ def get_mov_info(mov):
         for x in result:
             if x.startswith("width"):
                 width = x.split('=')[1]
-                file_info.append("width: {}".format(width))
+                file_info.append(width)
             if x.startswith("height"):
                 height = x.split('=')[1]
-                file_info.append("height: {}".format(height))
+                file_info.append(height)
             if x.startswith("avg_frame_rate"):
                 fps_raw = x.split('=')[1]
                 fps = fps_raw.split('/')[0]
-                file_info.append("fps: {}".format(fps))
+                file_info.append(fps)
 
     return file_info
 
 
+def palette_gen(mov, width, fps):
+    """
+    Generates the palette for the gif to be generated
+    :param mov: source movie file
+    :param width: source movie width
+    :param fps: source movie fps
+    :return: None
+    """
 
-
-def palette_gen(mov):
-    pass
+    if os.path.isfile(mov):
+        cmd = ['ffmpeg', '-y', '-i', mov, '-vf',
+               'fps={fps},scale={scale}:-1:flags=lanczos,palettegen'.format(fps=fps, scale=width),
+               '{}/.palette.png'.format(os.path.dirname(mov))]
+        result = subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+        return result
 
 
 def main():
-    get_mov_info(inputFile)
+    width, height, fps = get_mov_info(inputFile)
+    palette_gen(inputFile, width, fps)
 
 
 if __name__ == "__main__":
