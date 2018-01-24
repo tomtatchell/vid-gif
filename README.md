@@ -4,12 +4,14 @@ A simple script to convert a movie file to a gif
 
 ## Getting Started
 
-This will get the script up and running on your machine
+This will help to get the script up and running on your machine
 
 ### Prerequisites
 
-This script uses ffmpeg to convert the files  
-I recommend install it with homebrew  
+This script uses ffmpeg to convert the files and is written in python 3.5   
+I recommend installing ffmpeg with homebrew   
+  
+  
 To install homebrew, go to https://brew.sh/  
 Or enter the following command from terminal:
 
@@ -17,7 +19,7 @@ Or enter the following command from terminal:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Once done, install ffmpeg:
+Now install ffmpeg:
 
 ```commandline
 brew install ffmpeg
@@ -31,4 +33,4 @@ Run the script from terminal:
 python3 vid-gif.py /path/to/your/movie/file.mov
 ```
 
-It will then handle the rest, outputting a gif the same resolution and frame rate of the source
+It will then handle the rest, outputting a gif the same resolution and frame rate as the source and into the source folder
