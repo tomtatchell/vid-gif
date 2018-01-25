@@ -1,26 +1,29 @@
 import sys
 import os
 import subprocess
+import logging
+
+logging.basicConfig(filename='vidgif.log',
+                    format='%(asctime)s:%(levelname)s:%(message)s',
+                    level=logging.DEBUG)
 
 
-# TODO: add user controls
-# TODO: package into droplet app
-
-inputFile = sys.argv[1]
-
-
-def get_mov_info(mov):
+def get_info(mov):
     """
     Get the width, height and fps of source movie file
     :param mov: source movie file
     :return: list: file_info: width, height, fps
     """
+    logging.info("Getting info on {}".format(os.path.split(mov)[1]))
     file_info = []
     if os.path.isfile(mov):
-        # TODO: get info from video file
-        # TODO: get output of shell command
         cmd = ['ffprobe', '-show_streams', mov]
-        result = subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8').split('\n')
+        runcmd = subprocess.run(cmd,
+                                stdout=subprocess.PIPE,
+                                stdin=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
+        result = runcmd.stdout.decode('utf-8').split('\n')
+        logging.debug(runcmd.stderr.decode('utf-8'))
         for x in result:
             if x.startswith("width"):
                 width = x.split('=')[1]
@@ -32,7 +35,11 @@ def get_mov_info(mov):
                 fps_raw = x.split('=')[1]
                 fps = fps_raw.split('/')[0]
                 file_info.append(fps)
+            if x.startswith("nb_frames"):
+                frames = x.split('=')[1]
+                file_info.append(frames)
 
+    logging.info("Got info on {}".format(os.path.split(mov)[1]))
     return file_info
 
 
@@ -44,12 +51,17 @@ def palette_gen(mov, width, fps):
     :param fps: source movie fps
     :return:
     """
-
+    logging.info("Generating palette")
     if os.path.isfile(mov):
         cmd = ['ffmpeg', '-y', '-i', mov, '-vf',
                'fps={fps},scale={scale}:-1:flags=lanczos,palettegen'.format(fps=fps, scale=width),
                '{}/.palette.png'.format(os.path.dirname(mov))]
-        subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+        runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
+                                stdin=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
+        runcmd.stdout.decode('utf-8')
+        logging.debug(runcmd.stderr.decode('utf-8'))
+        logging.info("Generated palette file")
 
 
 def gif_conversion(mov, width, fps):
@@ -60,13 +72,19 @@ def gif_conversion(mov, width, fps):
     :param fps: source movie fps
     :return:
     """
+    logging.info("Starting conversion")
     if os.path.isfile(mov):
-        cmd = ['ffmpeg', '-i', mov, '-i', '{}/.palette.png'.format(os.path.dirname(mov)),
+        cmd = ['ffmpeg', '-y', '-i', mov, '-i', '{}/.palette.png'.format(os.path.dirname(mov)),
                '-filter_complex',
                'fps={fps},scale={scale}:-1:flags=lanczos[x];[x][1:v]paletteuse'.format(
                    fps=fps, scale=width),
                '{}.gif'.format(os.path.splitext(mov)[0])]
-        subprocess.run(cmd, stdout=subprocess.PIPE).stdout.decode('utf-8')
+        runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
+                                stdin=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
+        runcmd.stdout.decode('utf-8')
+        logging.debug(runcmd.stderr.decode('utf-8'))
+        logging.info("Conversion Complete!")
 
 
 def housekeeping(mov):
@@ -75,16 +93,20 @@ def housekeeping(mov):
     :param mov: source movie file
     :return:
     """
+    logging.info("Looking for palette file to remove")
     if os.path.isdir(os.path.dirname(mov)):
-        dir = os.path.dirname(mov)
+        movdir = os.path.dirname(mov)
         palette_file = '.palette.png'
-        if os.path.isfile(os.path.join(dir, palette_file)):
-            os.remove(os.path.join(dir, palette_file))
+        if os.path.isfile(os.path.join(movdir, palette_file)):
+            os.remove(os.path.join(movdir, palette_file))
+            logging.info("removed palette file")
+        else:
+            logging.info("No palette file to remove")
 
 
 def main():
     # get file info
-    width, height, fps = get_mov_info(inputFile)
+    width, height, fps = get_info(inputFile)
     # generate palette
     palette_gen(inputFile, width, fps)
     # generate gif
@@ -94,4 +116,5 @@ def main():
 
 
 if __name__ == "__main__":
+    inputFile = sys.argv[1]
     main()
