@@ -1,0 +1,2295 @@
+2018-01-25 10:21:10,274:INFO:Getting info on ship-lighting-test_v001.mov
+2018-01-25 10:21:10,303:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+
+2018-01-25 10:21:10,304:INFO:Got info on ship-lighting-test_v001.mov
+2018-01-25 10:21:10,304:INFO:Generating palette
+2018-01-25 10:21:10,885:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Users/bbmp03/Desktop/temp/vg-py/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7f8b58104e40] 255(+1) colors generated out of 39372 colors; ratio=0.006477
+[Parsed_palettegen_2 @ 0x7f8b58104e40] Dupped color: FF2C2E2E
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0753x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-25 10:21:10,885:INFO:Generated palette file
+2018-01-25 10:21:24,966:INFO:Getting info on ship-lighting-test_v001.mov
+2018-01-25 10:21:24,993:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+
+2018-01-25 10:21:24,994:INFO:Got info on ship-lighting-test_v001.mov
+2018-01-25 10:21:24,994:INFO:Generating palette
+2018-01-25 10:21:25,574:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Users/bbmp03/Desktop/temp/vg-py/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fabbf65c1e0] 255(+1) colors generated out of 39372 colors; ratio=0.006477
+[Parsed_palettegen_2 @ 0x7fabbf65c1e0] Dupped color: FF2C2E2E
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0756x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-25 10:21:25,574:INFO:Generated palette file
+2018-01-25 10:48:02,410:INFO:Getting info on ship-lighting-test_v001.mov
+2018-01-25 10:48:02,445:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+
+2018-01-25 10:48:02,445:INFO:Got info on ship-lighting-test_v001.mov
+2018-01-25 10:48:02,445:INFO:Generating palette
+2018-01-25 10:48:03,027:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/bbmp03/Desktop/temp/vg-py/ship-lighting-test_v001.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2018-01-17T14:47:27.000000Z
+  Duration: 00:00:02.68, start: 0.000000, bitrate: 20587 kb/s
+    Stream #0:0(eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720, 20583 kb/s, 25 fps, 25 tbr, 2500 tbn, 5k tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : H.264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Users/bbmp03/Desktop/temp/vg-py/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2018-01-17T14:47:27.000000Z
+      handler_name    : Apple Alias Data Handler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fb330100aa0] 255(+1) colors generated out of 39372 colors; ratio=0.006477
+[Parsed_palettegen_2 @ 0x7fb330100aa0] Dupped color: FF2C2E2E
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0751x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-25 10:48:03,027:INFO:Generated palette file
+2018-01-25 10:48:06,217:INFO:Looking for palette file to remove
+2018-01-25 10:48:06,217:INFO:removed palette file
+2018-01-29 11:27:45,307:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:27:45,313:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:29:10,140:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:29:10,150:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:29:52,730:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:29:52,740:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:30:34,625:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:30:34,630:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:26,945:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:26,955:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:35,137:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:35,137:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:54,539:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:33:54,539:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:35:03,859:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:35:03,870:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:35:17,574:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:35:17,574:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:36:13,976:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:36:14,502:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:36:14,502:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:37:14,028:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:37:14,504:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:37:14,505:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:37:14,505:INFO:Generating palette
+2018-01-29 11:37:14,505:INFO:Starting conversion
+2018-01-29 11:37:14,505:INFO:Looking for palette file to remove
+2018-01-29 11:37:14,508:INFO:No palette file to remove
+2018-01-29 11:38:46,249:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:38:46,754:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:38:46,754:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:38:46,754:INFO:Generating palette
+2018-01-29 11:38:47,672:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fbcb3e008a0] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0744x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:38:47,672:INFO:Generated palette file
+2018-01-29 11:38:47,672:INFO:Starting conversion
+2018-01-29 11:38:50,568:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (png) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[image2 @ 0x7fd483002600] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.gif':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 1280x720, q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   17 fps=0.0 q=-0.0 size=       1kB time=00:00:00.65 bitrate=   9.8kbits/s speed=1.26x    
+frame=   34 fps= 33 q=-0.0 size=       1kB time=00:00:01.33 bitrate=   4.8kbits/s speed=1.28x    
+frame=   49 fps= 32 q=-0.0 size=       1kB time=00:00:01.93 bitrate=   3.3kbits/s speed=1.25x    
+frame=   66 fps= 32 q=-0.0 size=       1kB time=00:00:02.61 bitrate=   2.5kbits/s speed=1.26x    
+frame=   76 fps= 32 q=-0.0 Lsize=     206kB time=00:00:03.01 bitrate= 560.0kbits/s speed=1.26x    
+video:204kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.673245%
+
+2018-01-29 11:38:50,569:INFO:Conversion Complete!
+2018-01-29 11:38:50,569:INFO:Looking for palette file to remove
+2018-01-29 11:38:50,571:INFO:removed palette file
+2018-01-29 11:41:34,015:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:41:34,550:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:41:34,550:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:41:34,550:INFO:Generating palette
+2018-01-29 11:41:35,451:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7ff5d26024a0] Dupped color: FFFBFBFB
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0752x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:41:35,451:INFO:Generated palette file
+2018-01-29 11:41:35,451:INFO:Starting conversion
+2018-01-29 11:41:35,467:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'pix_fmt bgra /Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.gif'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:41:35,467:INFO:Conversion Complete!
+2018-01-29 11:41:35,467:INFO:Looking for palette file to remove
+2018-01-29 11:41:35,471:INFO:removed palette file
+2018-01-29 11:42:27,873:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:42:28,476:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:42:28,476:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:42:28,477:INFO:Generating palette
+2018-01-29 11:42:29,438:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7fc9b1602200] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fc9b1602200] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0753x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:42:29,438:INFO:Generated palette file
+2018-01-29 11:42:29,438:INFO:Starting conversion
+2018-01-29 11:42:29,461:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'pix_fmt bgra'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:42:29,461:INFO:Conversion Complete!
+2018-01-29 11:42:29,461:INFO:Looking for palette file to remove
+2018-01-29 11:42:29,552:INFO:removed palette file
+2018-01-29 11:43:00,730:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:43:01,132:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:43:01,132:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:43:01,132:INFO:Generating palette
+2018-01-29 11:43:02,021:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fa74bd01aa0] Dupped color: FFFBFBFB
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0755x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:43:02,022:INFO:Generated palette file
+2018-01-29 11:43:02,022:INFO:Starting conversion
+2018-01-29 11:43:02,038:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'pix_fmt rgba'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:43:02,038:INFO:Conversion Complete!
+2018-01-29 11:43:02,038:INFO:Looking for palette file to remove
+2018-01-29 11:43:02,150:INFO:removed palette file
+2018-01-29 11:43:56,588:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:43:57,164:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:43:57,164:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:43:57,164:INFO:Generating palette
+2018-01-29 11:43:58,091:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fc9c9901940] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fc9c9901940] Dupped color: FFFBFBFB
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0754x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:43:58,091:INFO:Generated palette file
+2018-01-29 11:43:58,091:INFO:Starting conversion
+2018-01-29 11:43:58,108:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'background transparent'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:43:58,108:INFO:Conversion Complete!
+2018-01-29 11:43:58,108:INFO:Looking for palette file to remove
+2018-01-29 11:43:58,187:INFO:removed palette file
+2018-01-29 11:44:19,740:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:44:20,046:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:44:20,046:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:44:20,046:INFO:Generating palette
+2018-01-29 11:44:20,970:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7fd036401140] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fd036401140] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0735x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:44:20,970:INFO:Generated palette file
+2018-01-29 11:44:20,970:INFO:Starting conversion
+2018-01-29 11:44:23,759:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (png) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[image2 @ 0x7ffe76006800] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.gif':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 1280x720, q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   17 fps=0.0 q=-0.0 size=       1kB time=00:00:00.65 bitrate=   9.8kbits/s speed=1.27x    
+frame=   34 fps= 33 q=-0.0 size=       1kB time=00:00:01.33 bitrate=   4.8kbits/s speed=1.29x    
+frame=   50 fps= 32 q=-0.0 size=       1kB time=00:00:01.97 bitrate=   3.2kbits/s speed=1.27x    
+frame=   67 fps= 32 q=-0.0 size=       1kB time=00:00:02.65 bitrate=   2.4kbits/s speed=1.28x    
+frame=   76 fps= 32 q=-0.0 Lsize=     206kB time=00:00:03.01 bitrate= 560.0kbits/s speed=1.28x    
+video:204kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.673245%
+
+2018-01-29 11:44:23,760:INFO:Conversion Complete!
+2018-01-29 11:44:23,760:INFO:Looking for palette file to remove
+2018-01-29 11:44:23,764:INFO:removed palette file
+2018-01-29 11:45:22,791:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:45:23,143:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:45:23,143:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:45:23,143:INFO:Generating palette
+2018-01-29 11:45:24,012:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fd96ac0f840] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0741x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:45:24,013:INFO:Generated palette file
+2018-01-29 11:45:24,013:INFO:Starting conversion
+2018-01-29 11:45:24,029:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'pix_fmt pal8'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:45:24,029:INFO:Conversion Complete!
+2018-01-29 11:45:24,029:INFO:Looking for palette file to remove
+2018-01-29 11:45:24,032:INFO:removed palette file
+2018-01-29 11:45:55,063:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:45:55,619:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:45:55,619:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:45:55,620:INFO:Generating palette
+2018-01-29 11:45:56,527:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7f95ed501840] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7f95ed501840] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0712x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:45:56,527:INFO:Generated palette file
+2018-01-29 11:45:56,527:INFO:Starting conversion
+2018-01-29 11:45:56,892:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+[AVFilterGraph @ 0x7fd31c410e60] No such filter: '-pix_fmt pal8'
+Error initializing complex filters.
+Invalid argument
+
+2018-01-29 11:45:56,892:INFO:Conversion Complete!
+2018-01-29 11:45:56,893:INFO:Looking for palette file to remove
+2018-01-29 11:45:56,897:INFO:removed palette file
+2018-01-29 11:46:15,400:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:46:15,724:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:46:15,725:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:46:15,725:INFO:Generating palette
+2018-01-29 11:46:16,587:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7f86f540f3e0] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0722x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:46:16,588:INFO:Generated palette file
+2018-01-29 11:46:16,588:INFO:Starting conversion
+2018-01-29 11:46:16,605:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Unrecognized option 'pix_fmt pal8'.
+Error splitting the argument list: Option not found
+
+2018-01-29 11:46:16,606:INFO:Conversion Complete!
+2018-01-29 11:46:16,606:INFO:Looking for palette file to remove
+2018-01-29 11:46:16,678:INFO:removed palette file
+2018-01-29 11:48:43,422:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:48:44,080:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:48:44,081:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:48:44,081:INFO:Generating palette
+2018-01-29 11:48:45,050:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[Parsed_palettegen_2 @ 0x7ff124002100] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7ff124002100] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0726x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:48:45,051:INFO:Generated palette file
+2018-01-29 11:48:45,051:INFO:Starting conversion
+2018-01-29 11:48:45,460:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+[NULL @ 0x7ff66a003e00] Unable to find a suitable output format for 'gifflags=transdiff'
+gifflags=transdiff: Invalid argument
+
+2018-01-29 11:48:45,461:INFO:Conversion Complete!
+2018-01-29 11:48:45,461:INFO:Looking for palette file to remove
+2018-01-29 11:48:45,463:INFO:removed palette file
+2018-01-29 11:49:47,784:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:49:48,145:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:49:48,145:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:49:48,145:INFO:Generating palette
+2018-01-29 11:49:48,469:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+[NULL @ 0x7f93c18cca00] Unable to find a suitable output format for 'palettegen = reserve_transparent = 1'
+palettegen = reserve_transparent = 1: Invalid argument
+
+2018-01-29 11:49:48,469:INFO:Generated palette file
+2018-01-29 11:49:48,469:INFO:Starting conversion
+2018-01-29 11:49:48,805:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png: No such file or directory
+
+2018-01-29 11:49:48,805:INFO:Conversion Complete!
+2018-01-29 11:49:48,805:INFO:Looking for palette file to remove
+2018-01-29 11:49:48,805:INFO:No palette file to remove
+2018-01-29 11:51:10,037:INFO:Getting info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:51:10,398:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+
+2018-01-29 11:51:10,398:INFO:Got info on logo-anim_Top-Bottom_v003_%04d.png
+2018-01-29 11:51:10,398:INFO:Generating palette
+2018-01-29 11:51:11,351:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 png
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    [Parsed_palettegen_2 @ 0x7fc448502520] 255(+1) colors generated out of 501 colors; ratio=0.508982
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF555555
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF676767
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF686868
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF7E7E7E
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF868686
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF8A8A8A
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF8C8C8C
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FF989898
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFA3A3A3
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFA4A4A4
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFA8A8A8
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFAAAAAA
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFAFAFAF
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFB3B3B3
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFB4B4B4
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFB8B8B8
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFBEBEBE
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFC2C2C2
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFCDCDCD
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFCFCFCF
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFD1D1D1
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFDDDDDD
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFDFDFDF
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE0E0E0
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE4E4E4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE5E5E5
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE6E6E6
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE7E7E7
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE8E8E8
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFE9E9E9
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFEAEAEA
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFEBEBEB
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFECECEC
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFEDEDED
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFEEEEEE
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFEFEFEF
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF0F0F0
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF1F1F1
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF2F2F2
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF3F3F3
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF4F4F4
+    Last message repeated 1 times
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF5F5F5
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF6F6F6
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF8F8F8
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFF9F9F9
+[Parsed_palettegen_2 @ 0x7fc448502520] Dupped color: FFFBFBFB
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0744x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-01-29 11:51:11,352:INFO:Generated palette file
+2018-01-29 11:51:11,352:INFO:Starting conversion
+2018-01-29 11:51:14,179:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, image2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.png':
+  Duration: 00:00:03.04, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1280x720, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (png) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[image2 @ 0x7fd770002600] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v003/logo-anim_Top-Bottom_v003_%04d.gif':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 1280x720, q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   18 fps=0.0 q=-0.0 size=       1kB time=00:00:00.69 bitrate=   9.3kbits/s speed=1.31x    frame=   35 fps= 34 q=-0.0 size=       1kB time=00:00:01.37 bitrate=   4.7kbits/s speed=1.31x    frame=   51 fps= 33 q=-0.0 size=       1kB time=00:00:02.01 bitrate=   3.2kbits/s speed=1.29x    frame=   68 fps= 33 q=-0.0 size=       1kB time=00:00:02.69 bitrate=   2.4kbits/s speed=1.29x    frame=   76 fps= 33 q=-0.0 Lsize=     206kB time=00:00:03.01 bitrate= 560.0kbits/s speed=1.29x    
+video:204kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.673245%
+
+2018-01-29 11:51:14,179:INFO:Conversion Complete!
+2018-01-29 11:51:14,179:INFO:Looking for palette file to remove
+2018-01-29 11:51:14,183:INFO:removed palette file
+2018-02-05 10:05:22,728:INFO:Getting info on logo-anim_v004
+2018-02-05 10:05:22,777:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/logo-anim_v004: Is a directory
+
+2018-02-05 10:05:22,777:INFO:Got info on logo-anim_v004
+2018-02-05 10:08:31,465:INFO:Getting info on logo-bottom-top_v004.mov
+2018-02-05 10:08:31,501:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3403 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3400 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+
+2018-02-05 10:08:31,501:INFO:Got info on logo-bottom-top_v004.mov
+2018-02-05 10:08:31,501:INFO:Generating palette
+2018-02-05 10:08:31,664:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3403 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3400 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fbd471005a0] 255(+1) colors generated out of 4306 colors; ratio=0.059220
+[Parsed_palettegen_2 @ 0x7fbd471005a0] Dupped color: FF283238
+[Parsed_palettegen_2 @ 0x7fbd471005a0] Dupped color: FF2A3237
+[Parsed_palettegen_2 @ 0x7fbd471005a0] Dupped color: FFF8F8F8
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.316x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-02-05 10:08:31,665:INFO:Generated palette file
+2018-02-05 10:08:31,665:INFO:Starting conversion
+2018-02-05 10:08:31,966:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3403 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3400 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (prores) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.gif':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 356x200 [SAR 1:1 DAR 89:50], q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   76 fps=0.0 q=-0.0 Lsize=     197kB time=00:00:03.01 bitrate= 535.7kbits/s speed=13.2x    
+video:195kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.703923%
+
+2018-02-05 10:08:31,967:INFO:Conversion Complete!
+2018-02-05 10:08:31,967:INFO:Looking for palette file to remove
+2018-02-05 10:08:31,970:INFO:removed palette file
+2018-02-05 10:08:52,882:INFO:Getting info on logo-top-bottom_v004.mov
+2018-02-05 10:08:52,909:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2777 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2773 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+
+2018-02-05 10:08:52,909:INFO:Got info on logo-top-bottom_v004.mov
+2018-02-05 10:08:52,909:INFO:Generating palette
+2018-02-05 10:08:53,049:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2777 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2773 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7ffede000680] 255(+1) colors generated out of 4385 colors; ratio=0.058153
+[Parsed_palettegen_2 @ 0x7ffede000680] Dupped color: FF283339
+[Parsed_palettegen_2 @ 0x7ffede000680] Dupped color: FFF8F8F8
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.358x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-02-05 10:08:53,049:INFO:Generated palette file
+2018-02-05 10:08:53,050:INFO:Starting conversion
+2018-02-05 10:08:53,354:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2777 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2773 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (prores) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.gif':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 356x200 [SAR 1:1 DAR 89:50], q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   76 fps=0.0 q=-0.0 Lsize=     226kB time=00:00:03.01 bitrate= 616.4kbits/s speed=13.2x    
+video:225kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.611235%
+
+2018-02-05 10:08:53,354:INFO:Conversion Complete!
+2018-02-05 10:08:53,354:INFO:Looking for palette file to remove
+2018-02-05 10:08:53,360:INFO:removed palette file
+2018-02-05 10:12:46,201:INFO:Getting info on logo-top-bottom_v004.mov
+2018-02-05 10:12:46,225:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2799 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2795 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+
+2018-02-05 10:12:46,225:INFO:Got info on logo-top-bottom_v004.mov
+2018-02-05 10:12:46,226:INFO:Generating palette
+2018-02-05 10:12:46,362:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2799 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2795 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7fc23ff01520] 255(+1) colors generated out of 4308 colors; ratio=0.059192
+[Parsed_palettegen_2 @ 0x7fc23ff01520] Dupped color: FF2A3238
+[Parsed_palettegen_2 @ 0x7fc23ff01520] Dupped color: FF2A3339
+[Parsed_palettegen_2 @ 0x7fc23ff01520] Dupped color: FF97989A
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.369x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-02-05 10:12:46,362:INFO:Generated palette file
+2018-02-05 10:12:46,362:INFO:Starting conversion
+2018-02-05 10:12:46,662:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 2799 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 2795 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (prores) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-top-bottom_v004.gif':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 356x200 [SAR 1:1 DAR 89:50], q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   76 fps=0.0 q=-0.0 Lsize=     159kB time=00:00:03.01 bitrate= 433.9kbits/s speed=13.4x    
+video:158kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.870575%
+
+2018-02-05 10:12:46,663:INFO:Conversion Complete!
+2018-02-05 10:12:46,663:INFO:Looking for palette file to remove
+2018-02-05 10:12:46,666:INFO:removed palette file
+2018-02-05 10:12:58,146:INFO:Getting info on logo-bottom-top_v004.mov
+2018-02-05 10:12:58,169:DEBUG:ffprobe version 3.4 Copyright (c) 2007-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3424 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3421 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+
+2018-02-05 10:12:58,169:INFO:Got info on logo-bottom-top_v004.mov
+2018-02-05 10:12:58,169:INFO:Generating palette
+2018-02-05 10:12:58,311:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3424 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3421 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> png (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0(eng): Video: png, rgba, 16x16 [SAR 1:1 DAR 1:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Lavc57.107.100 png
+[Parsed_palettegen_2 @ 0x7ff1794129a0] 255(+1) colors generated out of 4298 colors; ratio=0.059330
+[Parsed_palettegen_2 @ 0x7ff1794129a0] Dupped color: FF2A3237
+[Parsed_palettegen_2 @ 0x7ff1794129a0] Dupped color: FFF8F8F8
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.339x    
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+
+2018-02-05 10:12:58,311:INFO:Generated palette file
+2018-02-05 10:12:58,311:INFO:Starting conversion
+2018-02-05 10:12:58,606:DEBUG:ffmpeg version 3.4 Copyright (c) 2000-2017 the FFmpeg developers
+  built with Apple LLVM version 9.0.0 (clang-900.0.37)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/3.4 --enable-shared --enable-pthreads --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-opencl --enable-videotoolbox --disable-lzma
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+  Duration: 00:00:03.04, start: 0.000000, bitrate: 3424 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(smpte170m/smpte170m/bt709, progressive), 356x200, 3421 kb/s, SAR 1:1 DAR 89:50, 25 fps, 25 tbr, 2500 tbn, 2500 tbc (default)
+    Metadata:
+      handler_name    : DataHandler
+      encoder         : Apple ProRes 422
+Input #1, png_pipe, from '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/.palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (prores) -> fps
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to '/Volumes/BB_WORK/_WORK/10-17/770-Sainte_Adresse/770-Output/770-Animation/770-WIPs/Logo_animation_wips/v004/logo-bottom-top_v004.gif':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 512
+    compatible_brands: qt  
+    uk.co.thefoundry.Application: Nuke
+    uk.co.thefoundry.ApplicationVersion: 10.5v5
+    uk.co.thefoundry.YCbCrMatrix: Rec 601
+    uk.co.thefoundry.Colorspace: Gamma2.2
+    uk.co.thefoundry.Writer: mov64
+    encoder         : Lavf57.83.100
+    Stream #0:0: Video: gif, pal8, 356x200 [SAR 1:1 DAR 89:50], q=2-31, 200 kb/s, 25 fps, 100 tbn, 25 tbc (default)
+    Metadata:
+      encoder         : Lavc57.107.100 gif
+frame=   76 fps=0.0 q=-0.0 Lsize=     153kB time=00:00:03.01 bitrate= 415.6kbits/s speed=13.4x    
+video:151kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.909314%
+
+2018-02-05 10:12:58,606:INFO:Conversion Complete!
+2018-02-05 10:12:58,606:INFO:Looking for palette file to remove
+2018-02-05 10:12:58,608:INFO:removed palette file
