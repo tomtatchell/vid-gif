@@ -16,28 +16,27 @@ def get_info(mov):
     """
     logging.info("Getting info on {}".format(os.path.split(mov)[1]))
     file_info = []
-    if os.path.isfile(mov):
-        cmd = ['ffprobe', '-show_streams', mov]
-        runcmd = subprocess.run(cmd,
-                                stdout=subprocess.PIPE,
-                                stdin=subprocess.PIPE,
-                                stderr=subprocess.PIPE)
-        result = runcmd.stdout.decode('utf-8').split('\n')
-        logging.debug(runcmd.stderr.decode('utf-8'))
-        for x in result:
-            if x.startswith("width"):
-                width = x.split('=')[1]
-                file_info.append(width)
-            if x.startswith("height"):
-                height = x.split('=')[1]
-                file_info.append(height)
-            if x.startswith("avg_frame_rate"):
-                fps_raw = x.split('=')[1]
-                fps = fps_raw.split('/')[0]
-                file_info.append(fps)
-            if x.startswith("nb_frames"):
-                frames = x.split('=')[1]
-                file_info.append(frames)
+    cmd = ['ffprobe', '-show_streams', mov]
+    runcmd = subprocess.run(cmd,
+                            stdout=subprocess.PIPE,
+                            stdin=subprocess.PIPE,
+                            stderr=subprocess.PIPE)
+    result = runcmd.stdout.decode('utf-8').split('\n')
+    logging.debug(runcmd.stderr.decode('utf-8'))
+    for x in result:
+        if x.startswith("width"):
+            width = x.split('=')[1]
+            file_info.append(width)
+        if x.startswith("height"):
+            height = x.split('=')[1]
+            file_info.append(height)
+        if x.startswith("avg_frame_rate"):
+            fps_raw = x.split('=')[1]
+            fps = fps_raw.split('/')[0]
+            file_info.append(fps)
+        if x.startswith("nb_frames"):
+            frames = x.split('=')[1]
+            file_info.append(frames)
 
     logging.info("Got info on {}".format(os.path.split(mov)[1]))
     return file_info
@@ -52,16 +51,15 @@ def palette_gen(mov, width, fps):
     :return:
     """
     logging.info("Generating palette")
-    if os.path.isfile(mov):
-        cmd = ['ffmpeg', '-y', '-i', mov, '-vf',
-               'fps={fps},scale={scale}:-1:flags=lanczos,palettegen'.format(fps=fps, scale=width),
-               '{}/.palette.png'.format(os.path.dirname(mov))]
-        runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
-                                stdin=subprocess.PIPE,
-                                stderr=subprocess.PIPE)
-        runcmd.stdout.decode('utf-8')
-        logging.debug(runcmd.stderr.decode('utf-8'))
-        logging.info("Generated palette file")
+    cmd = ['ffmpeg', '-y', '-i', mov, '-vf',
+           'fps={fps},scale={scale}:-1:flags=lanczos,palettegen'.format(fps=fps, scale=width),
+           '{}/.palette.png'.format(os.path.dirname(mov))]
+    runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
+                            stdin=subprocess.PIPE,
+                            stderr=subprocess.PIPE)
+    runcmd.stdout.decode('utf-8')
+    logging.debug(runcmd.stderr.decode('utf-8'))
+    logging.info("Generated palette file")
 
 
 def gif_conversion(mov, width, fps):
@@ -73,18 +71,17 @@ def gif_conversion(mov, width, fps):
     :return:
     """
     logging.info("Starting conversion")
-    if os.path.isfile(mov):
-        cmd = ['ffmpeg', '-y', '-i', mov, '-i', '{}/.palette.png'.format(os.path.dirname(mov)),
-               '-filter_complex',
-               'fps={fps},scale={scale}:-1:flags=lanczos[x];[x][1:v]paletteuse'.format(
-                   fps=fps, scale=width),
-               '{}.gif'.format(os.path.splitext(mov)[0])]
-        runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
-                                stdin=subprocess.PIPE,
-                                stderr=subprocess.PIPE)
-        runcmd.stdout.decode('utf-8')
-        logging.debug(runcmd.stderr.decode('utf-8'))
-        logging.info("Conversion Complete!")
+    cmd = ['ffmpeg', '-y', '-i', mov, '-i', '{}/.palette.png'.format(os.path.dirname(mov)),
+           '-filter_complex',
+           'fps={fps},scale={scale}:-1:flags=lanczos[x];[x][1:v]paletteuse'.format(
+               fps=fps, scale=width),
+           '{}.gif'.format(os.path.splitext(mov)[0])]
+    runcmd = subprocess.run(cmd, stdout=subprocess.PIPE,
+                            stdin=subprocess.PIPE,
+                            stderr=subprocess.PIPE)
+    runcmd.stdout.decode('utf-8')
+    logging.debug(runcmd.stderr.decode('utf-8'))
+    logging.info("Conversion Complete!")
 
 
 def housekeeping(mov):
@@ -106,7 +103,7 @@ def housekeeping(mov):
 
 def main():
     # get file info
-    width, height, fps = get_info(inputFile)
+    width, height, fps, frames = get_info(inputFile)
     # generate palette
     palette_gen(inputFile, width, fps)
     # generate gif

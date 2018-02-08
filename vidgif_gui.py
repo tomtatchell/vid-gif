@@ -4,7 +4,8 @@ import pexpect
 from os import path
 
 from PyQt5.QtWidgets import (QWidget, QMainWindow, QProgressBar,
-                             qApp, QMessageBox, QApplication, QLabel)
+                             qApp, QMessageBox, QApplication, QLabel,
+                             QSizePolicy, QGridLayout)
 from PyQt5.QtGui import QPalette, QImage, QBrush
 from PyQt5.QtCore import Qt, QSize
 
@@ -13,16 +14,20 @@ class BackgroundWidget(QWidget):
     def __init__(self):
         super(BackgroundWidget, self).__init__()
         palette = QPalette()
-        # oImage = QImage('/Volumes/HDD_001/SSD_BACKUP/Users/bbmp03/PycharmProjects/pyqt/img_seq_convert/BBLOGO.png')
-        # sImage = oImage.scaled(QSize(404, 466))
-        # palette.setBrush(QPalette.Background, QBrush(sImage))
+        oImage = QImage('BBLOGO.png')
+        sImage = oImage.scaled(QSize(202, 233))
+        palette.setBrush(QPalette.Background, QBrush(sImage))
         self.setAutoFillBackground(True)
         self.setPalette(palette)
 
 
 class MainWindow(QMainWindow):
     # TODO: Add text elements to UI
-    # TODO: Possibly add button to go after confirming output?
+    # TODO: Add GIF output name override
+    # TODO: Add Output Resolution - either exact value or reduce by x amount
+    # TODO: Add compression level options
+    # TODO: Add go button
+    # TODO: Add text to represent the video file dragged in
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -33,13 +38,15 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self._widget)
 
         self.setWindowTitle('vid-gif')
-        self.setGeometry(750, 100, 808, 466)
+        self.setGeometry(250, 100, 404, 466)
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
 
         self.progress = QProgressBar(self)
         self.progress.setGeometry(101, 80, 200, 30)
         self.completed = 0
+
+
 
     def dragEnterEvent(self, e):
         if e.mimeData().hasFormat('text/uri-list'):
@@ -94,6 +101,7 @@ class MainWindow(QMainWindow):
                             self.progress.setValue(percentage)
                             qApp.processEvents()
                     thread.close()
+                    vidgif.housekeeping(src)
                     self.progress.setValue(0)
         else:
             super(MainWindow, self).dragMoveEvent(e)
